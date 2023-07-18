@@ -1,0 +1,52 @@
+.fonts {
+    font-family: 'Balsamiq Sans', cursive;
+}
+body {
+    background-color: #191A19;
+}
+.backfoto {
+    background-color: #BBBBBB;
+    background-size: cover;
+}
+.accordion-body {
+    background-color: #BBBBBB;
+}
+.color {
+    color: black;
+}
+.color:hover {
+    color: #423F3E;
+}
+.blockquote-8 {
+    position: relative;
+    padding: 16px 24px;
+    margin: 16px 46px;    
+    font-size: 16px;
+    text-align: center;
+}
+.blockquote-8:before,
+.blockquote-8:after {
+    position: absolute;
+    color: black;
+    font-size: 100px;
+    font-family: Times, sans-serif;    
+    line-height: 100px;    
+}
+.blockquote-8:before {
+    content: '“';
+    left: -30px;
+    top: -10px;
+}
+.blockquote-8:after {
+    content: '”';
+    right: -30px;
+    bottom: -10px;
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    color: #7c7b7be1;
+    font-family: 'Balsamiq Sans', cursive;
+    margin-top: 150px;
+    text-align: center;
+}
